@@ -245,7 +245,7 @@ dependency-reduced-pom.xml
 *.pyc
 
 # Ruby
-Gemfile.lock
+
 
 # Rust
 target/
