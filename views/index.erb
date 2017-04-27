@@ -9,6 +9,38 @@
 
 		<p>"What a string!" with a key of 5 turns to</p>
 		<p><%= message %></p>
+		<br />
+		<h2>Encrypt Message</h2>
+		<div class="wrapper">
+			<form id='encrypt' name='encrypt'>
+					<label>Message:</label>
+					<input type='text' name='message'/>
+
+					<label>Key:</label>
+					<input type='number' name='key' style="width: 30px;" value='5' />
+
+					<input type='submit' value='Encrypt'/>
+			</form>
+		</div>
+
+<!-- 
+			<div class='left'>
+				<form><input type='text' name='encrypt_message' /></form>
+			</div>
+			<div class='middle'>
+				<form><input type='text' name='key' /></form>
+			</div>
+			<div class='right'>
+				<form><input type='submit' value='Encrypt' /></form>
+			</div>	
+				<br />
+				<h2>Decrypt Message</h2>
+				<form>
+					<input type='text' name='decrypt_message' />
+					<input type='text' name='key' width='2' />
+					<input type='submit' value='Decrypt' />
+				</form>
+ -->
 
 	</body>
 </html>
