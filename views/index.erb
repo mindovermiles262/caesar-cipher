@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Caesars Cipher</title>
+		<link href="/style.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div class='wrapper'>
+			<div class ='introduction'>
+			<h1>Caesar's Cipher</h1>
+				<p>Use a Caesar Ciper to encrypt and decrypt messages!</p>
+				<p>Enter your message and a key then press Submit</p>
+			</div>
+
+			<div class='input'>
+				<h2>Enter your Message:</h2>
+				<h4>(Use a negative key to decrypt messages)</h4>
+
+				<form>
+					<label>Message:</label>
+					<input type="text" name="message" value="Enter Message">
+
+					<label>Key:</label>
+					<input type='number' name='key' style="width: 30px;" value='5' />
+				
+					<input type='submit' value='Submit'/>
+				</form>
+			</div>
+
+			<div class='output'>
+				<p>YOUR MESSAGE:</p>
+				<p><%= processed %></p>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+

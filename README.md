@@ -1,10 +1,23 @@
-# Project Title
-Description.... [link](http://link_to_project)
+# Caesar Cipher
+
+Encrypt and Decrypt messages using a [Caesar Cipher](https://learncryptography.com/classical-encryption/caesar-cipher) by "moving" letters up or down the alphabet
+
+This project is part of [The Odin Project's] Ruby on Rails curriculum. More information [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/sinatra-project)
 
 ## Use
+Clone or download Repo, then run `ruby main.rb` to launch Sinatra server. Navigate web browser to `localhost:4567` to view.
+
+Alternativly, use the [online](https://fast-citadel-19591.herokuapp.com/) version
+
+## Requirements
+* Ruby v2.3
+* Sinatra v1.4
+* Sinatra-Contrib v1.4
+
 
 ## Development Languages
-* 
+* Ruby
+* Sinatra
 
 ## TODO
 1. 
