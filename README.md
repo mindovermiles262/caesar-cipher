@@ -17,11 +17,11 @@ Alternativly, use the [online](https://fast-citadel-19591.herokuapp.com/) versio
 
 ## Development Languages
 * Ruby
-* Sinatra
+* HTML
+* CSS
 
 ## TODO
-1. 
-2. 
+1. Stylize Page
 
 ## Contributing
 Please follow a "fork-and-pull" workflow when Contributing
