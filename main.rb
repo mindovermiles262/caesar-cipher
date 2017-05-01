@@ -3,7 +3,11 @@ require 'sinatra/reloader' if development?
 
 require './lib/caesar'
 
+
 get '/' do
-	message = CaesarCipher.encrypt("What a string!", 5)
-	erb :index, :locals => { :message => message }
+	key = params['key'].to_i || 5
+	message = params['message'] || "What a string!"
+	processed = CaesarCipher.encrypt(message, key)
+	erb :index, :locals => { :processed => processed, 
+							:message => message }
 end

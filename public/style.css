@@ -1,12 +1,7 @@
 body {
 	text-align: center;
 	background: #7f7f7f;
-}
-
-.column {
-	display: inline;
-	float: left;
-	width: 50%;
+	
 }
 
 h1 {
