@@ -1,7 +1,10 @@
 <html>
 	<head>
 		<title>Caesars Cipher</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 		<link href="/style.css" rel="stylesheet" type="text/css" />
+		<link href='/mobile.css' rel='stylesheet' type='text/css' />
+		<link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
 	</head>
 
 	<body>
@@ -19,7 +22,7 @@
 				<form>
 					<label>Message:</label>
 					<input type="text" name="message" value="Enter Your Message">
-
+					<div class="line-space"></div>
 					<label>Key:</label>
 					<input type='number' name='key' style="width: 30px;" value='5' />
 				
@@ -29,7 +32,7 @@
 
 			<div class='output'>
 				<p>YOUR MESSAGE:</p>
-				<p><%= processed %></p>
+				<p id='processed'><%= processed %></p>
 			</div>
 		</div>
 	</body>
